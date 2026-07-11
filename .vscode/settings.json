@@ -1,0 +1,9 @@
+{
+  // Point VS Code / Cursor / other VS Code-based IDEs at this project's venv.
+  // Relative to the workspace so it works on any machine after `git clone` + venv create.
+  // Windows layout; on macOS/Linux the interpreter is venv/bin/python (see docs/SETUP.md).
+  "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+
+  // Auto-activate the venv in the integrated terminal so `(venv)` is on by default.
+  "python.terminal.activateEnvironment": true
+}
